@@ -7,6 +7,11 @@
     --footer-text: #8b8b8c;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
 *{
     border: 0.5px dashed black;
 }
@@ -16,33 +21,46 @@
     display: flex;
     justify-content: space-between;
     color: var(--main-dark);
-
+    font-size: 12px;
 
     .left-menu {
         display: flex;  
         align-items: center;
-        
+
+        .logo {
+            padding:0.5rem
+        }    
     }
 
     .right-menu {
         display: flex;
         align-items: center;
+        margin: 0.5rem;
     }
 
     ul {
         display: flex;
         flex-direction: row;
         list-style: none;
-        style  
+        padding-inline-start: 0px;
     }
 
-    
+    li {
+        margin: 0px;
+        padding: 0px;
+    }
+
     a {
         text-decoration: none;
         color: var(--main-dark);
-        padding: 1rem;
+        padding: 1rem;  
     }
-    
+
+    .login {
+        color: white;
+        padding: 0.3rem 0.5rem;
+        font-size: 11px;
+    }  
 }
 
 /*MAIN*/
@@ -55,7 +73,30 @@
 }
 .jumbo {
     
-    width: 80%;
+    width: 60%;
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bolder;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: -3rem;
+    }
+
+    p {
+        margin: 0rem 0 2rem 0;
+        font-size: 12px;
+        line-height: 1rem;
+        padding-right: 1rem;
+    }
+
+    i {
+        font-size: 40px;
+    }
 }
 
 /* content */
@@ -65,7 +106,7 @@
 }
 
 .content {
-    width: 70%;
+    width: 50%;
 }
 
 
@@ -100,6 +141,8 @@ ul {
 
 a {
     text-decoration: none;
+    border-color: none;
+    margin: 0.5rem;
 }
 
 
@@ -109,18 +152,22 @@ a {
 
 
 /* UTILITY */
-#btn-accedi {
+.btn {
     background-color: var(--main-light);
     color: var(--main-lighter);
-    padding: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.trial {
+    margin-left: 0;
+    color: white;
 }
 
 .row {
     display: flex;
-    
- 
 }
-
 .row-operations {
     display: flex;
     flex-wrap: wrap;
@@ -130,7 +177,6 @@ a {
     width: auto;
     flex-basis: auto;
 }
-
 .col-1 {
     width: calc(100% / 12 * 1);
 }
