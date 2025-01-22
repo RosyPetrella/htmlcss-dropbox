@@ -11,7 +11,7 @@
     border: 0.5px dashed black;
 }
 
-
+/*HEADER*/
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -45,8 +45,66 @@
     
 }
 
+/*MAIN*/
+
+.jumbo-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--main-jumbo);
+}
+.jumbo {
+    
+    width: 70%;
+}
+
 #btn-accedi {
     background-color: var(--main-light);
     color: var(--main-lighter);
     padding: 0.5rem;
+}
+
+.row {
+    display: flex;.
+}
+
+.col {
+    width: auto;
+    flex-basis: auto;
+}
+
+.col-1 {
+    width: calc(100% / 12 * 1);
+}
+.col-2 {
+    width: calc(100% / 12 * 2);
+}
+.col-3 {
+    width: calc(100% / 12 * 3);
+}
+.col-4 {
+    width: calc(100% / 12 * 4);
+}
+.col-5 {
+    width: calc(100% / 12 * 5);
+}
+.col-6 {
+    width: 50%
+}
+.col-7 {
+    width: calc(100% / 12 * 7);
+}
+.col-8 {
+    width: calc(100% / 12 * 8);
+}
+.col-9 {
+    width: calc(100% / 12 * 9);
+}
+.col-10 {
+    width: calc(100% / 12 * 10);
+}
+.col-11 {
+    width: calc(100% / 12 * 11);
+}
+.col-12 {
+    width: 100%;
 }
