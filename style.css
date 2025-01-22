@@ -118,11 +118,60 @@ body {
         font-size: 1.5rem;
     }
 
+    h3 {
+        padding-left: 0.75rem;
+    }
+
     .select {
         vertical-align: middle;
         margin-top: 3rem;
         margin-bottom: 2rem;
         font-size: 12px;
+    }
+
+    .plan-type {
+        text-align: center;
+        padding: 0.5rem;
+        font-size: 12px;
+    }
+
+    span {
+        font-size: 12px;
+        padding-left: 0.75rem;
+    } 
+
+    .price {
+        font-weight: bold;
+     }
+
+     .cad {
+        color: var(--footer-text);
+     }
+    
+    p {
+        font-size: 12px;
+        margin-top: 2rem;
+        padding-left: 0.75rem;
+        
+    }
+
+    ul {
+        padding-inline-start: 0px;
+        font-size: 12px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    li{
+        padding: 0.75rem;
+    };
+
+    .points i {
+        color: blue;
+    }
+
+    i {
+        padding-right: 0.25rem;
     }
 }
 
@@ -149,7 +198,6 @@ footer {
     align-items: center;
     justify-content: space-between;
 }
-
 
 ul {
     list-style: none;
@@ -182,6 +230,20 @@ a {
     color: white;
 }
 
+.btn-plan {
+    justify-self: center;
+    background-color: var(--main-light);
+    color: var(--main-lighter);
+    font-size: 12px;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+
+    a {
+        padding: 0.5rem 0.75rem;
+    };
+ }
+ 
+
 .row {
     display: flex;
 }
@@ -205,6 +267,8 @@ a {
 }
 .col-4 {
     width: calc(100% / 12 * 4);
+    border: 0.5px solid var(--border);
+    padding: 1rem;
 }
 .col-5 {
     width: calc(100% / 12 * 5);
