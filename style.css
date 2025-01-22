@@ -1,0 +1,52 @@
+:root {
+    --main-lighter: white;
+    --main-light: #0061fe;
+    --main-dark: black;
+    --main-jumbo: #b4d0e6;
+    --border: #dddce0;
+    --footer-text: #8b8b8c;
+}
+
+*{
+    border: 0.5px dashed black;
+}
+
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--main-dark);
+
+
+    .left-menu {
+        display: flex;  
+        align-items: center;
+        
+    }
+
+    .right-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        style  
+    }
+
+    
+    a {
+        text-decoration: none;
+        color: var(--main-dark);
+        padding: 1rem;
+    }
+    
+}
+
+#btn-accedi {
+    background-color: var(--main-light);
+    color: var(--main-lighter);
+    padding: 0.5rem;
+}
