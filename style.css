@@ -68,6 +68,47 @@
     width: 70%;
 }
 
+
+/* FOOTER */
+
+footer {
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bottom {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul {
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/* UTILITY */
 #btn-accedi {
     background-color: var(--main-light);
     color: var(--main-lighter);
@@ -78,6 +119,11 @@
     display: flex;
     
  
+}
+
+.row-operations {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col {
