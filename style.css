@@ -103,10 +103,27 @@ body {
 .main-container {
     display: flex;
     justify-content: center;
+    margin-top: 5rem;
+    border-top: 0.5px solid var(--border);
 }
 
 .content {
     width: 50%;
+    margin-top: 2rem;
+}
+
+.plan {
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .select {
+        vertical-align: middle;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        font-size: 12px;
+    }
 }
 
 
