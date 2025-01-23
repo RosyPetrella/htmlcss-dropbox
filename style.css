@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-{
+*{
     border: 0.5px dashed black;
 }
 
@@ -67,13 +67,14 @@ body {
 
 /* jumbo */
 .jumbo-container {
-    width: 70%;
+    width: 100;
     background-color: var(--main-jumbo);
-    margin: auto;
+    height: 100%;
 }
 .jumbo {
     
-    width: 100%;
+    width: 70%;
+    margin: auto;
 
     h1 {
         font-size: 3.5rem;
@@ -258,6 +259,10 @@ body {
     img {
         width: 100%;
     }
+
+    .op-card {
+        padding: 1rem;
+    }
 }
 
 .conclusion {
@@ -327,6 +332,11 @@ a {
 
 
 /* UTILITY */
+
+.padding {
+    padding: 1rem;
+}
+
 .btn {
     background-color: var(--main-light);
     color: var(--main-lighter);
@@ -357,9 +367,6 @@ a {
  }
  
  .row-container {
-    display: flex;
-    flex-basis: auto;
-    flex-wrap: wrap;
     margin: 1rem -1rem;
     
  }
@@ -368,6 +375,11 @@ a {
     display: flex;
     flex-basis: auto;
     
+}
+
+.row-operations {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col {
