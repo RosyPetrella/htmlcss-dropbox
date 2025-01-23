@@ -173,6 +173,49 @@ body {
     i {
         padding-right: 0.25rem;
     }
+
+    .plan-type {
+        border-bottom:0.5px solid var(--border) ;
+    }
+
+    .card {
+        border: 0.5px solid var(--border);
+        height: 100%;
+    }
+}
+
+.partner {
+
+    margin-top: 5rem;
+
+    h3 {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .col-4 {
+        padding: 3rem 2rem;
+    }
+    p {
+        margin: 0rem 0 2rem 0;
+        font-size: 12px;
+        line-height: 1rem;
+        padding-right: 1rem;
+    }
+
+    a {
+        border: 1px solid black;
+        padding: 0.5rem 0.75rem;
+        font-size: 12px;
+        color: black;
+        margin: 0rem;
+    }
+
 }
 
 
@@ -267,7 +310,6 @@ a {
 }
 .col-4 {
     width: calc(100% / 12 * 4);
-    border: 0.5px solid var(--border);
     padding: 1rem;
 }
 .col-5 {
