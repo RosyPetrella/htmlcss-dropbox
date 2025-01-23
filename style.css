@@ -27,6 +27,7 @@ body {
     .left-menu {
         display: flex;  
         align-items: center;
+        margin: 0rem 0.5rem;
 
         .logo {
             padding:0.5rem
@@ -36,7 +37,7 @@ body {
     .right-menu {
         display: flex;
         align-items: center;
-        margin: 0.5rem;
+        margin: 0rem 0.5rem;
     }
 
     ul {
@@ -44,17 +45,26 @@ body {
         flex-direction: row;
         list-style: none;
         padding-inline-start: 0px;
+        margin: 0rem;
+        border-bottom: transparent;
+
     }
 
     li {
         margin: 0px;
         padding: 0px;
+
+        
     }
 
     a {
         text-decoration: none;
         color: var(--main-dark);
-        padding: 1rem;  
+        padding: 1rem; 
+        
+        &:hover {
+            border-bottom: 1px solid black;
+        }
     }
 
     .login {
@@ -100,6 +110,10 @@ body {
 
     i {
         font-size: 40px;
+    }
+
+    .link-arrow {
+        color: black;
     }
 }
 
