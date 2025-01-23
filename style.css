@@ -13,16 +13,27 @@ body {
 }
 
 *{
-    border: 0.5px dashed black;
+    /*border: 0.5px dashed black;*/
     box-sizing: border-box;
 }
 
 /*HEADER*/
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
 .top-nav {
+    
     display: flex;
     justify-content: space-between;
     color: var(--main-dark);
     font-size: 12px;
+    width: 100%;
 
     .left-menu {
         display: flex;  
@@ -90,7 +101,8 @@ body {
     h1 {
         font-size: 3.5rem;
         font-weight: bolder;
-        margin-top: 4rem;
+        padding-top: 4rem;
+        margin: 0;
         margin-bottom: 3rem;
     }
 
@@ -142,6 +154,7 @@ body {
 
     h2 {
         font-size: 1.5rem;
+        margin-top: 6rem;
     }
 
     h3 {
@@ -206,17 +219,17 @@ body {
 
     .card {
         border: 0.5px solid var(--border);
-        height: 95%;
+        height: 100%;
         margin: 0rem 1rem;
         padding: 0.5rem;
-        display: flex;
-        flex-wrap: wrap;
+    
     }
 
     .contact {
         display: flex;
         align-items:flex-start;
         justify-content: center;
+        flex-wrap: wrap;
          
         .btn {
             margin-top:1rem;
@@ -376,6 +389,11 @@ a {
 
 
 /* UTILITY */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .padding {
     padding: 1rem;
