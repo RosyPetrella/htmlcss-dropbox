@@ -12,7 +12,7 @@ body {
     margin: 0;
 }
 
-*{
+{
     border: 0.5px dashed black;
 }
 
@@ -67,13 +67,13 @@ body {
 
 /* jumbo */
 .jumbo-container {
-    display: flex;
-    justify-content: center;
+    width: 70%;
     background-color: var(--main-jumbo);
+    margin: auto;
 }
 .jumbo {
     
-    width: 60%;
+    width: 100%;
 
     h1 {
         font-size: 3.5rem;
@@ -85,7 +85,7 @@ body {
     img {
         width: 100%;
         margin-top: 1rem;
-        margin-bottom: -5rem;
+        margin-bottom: -2rem;
         
     }
 
@@ -102,15 +102,23 @@ body {
 }
 
 /* content */
+
+/*
 .main-container {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
     border-top: 0.5px solid var(--border);
 }
+    */
+
+.main-container {
+    margin: auto;
+    width: 60%;
+}
 
 .content {
-    width: 50%;
+    width: 100%%;
     margin-top: 2rem;
 }
 
@@ -161,7 +169,7 @@ body {
         padding-inline-start: 0px;
         font-size: 12px;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     li{
@@ -183,6 +191,8 @@ body {
     .card {
         border: 0.5px solid var(--border);
         height: 100%;
+        margin: 1rem 1rem;
+        padding: 0.5rem;
     }
 }
 
@@ -198,6 +208,9 @@ body {
     img {
         width: 100%;
         margin-top: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
     }
 
     .col-4 {
@@ -273,7 +286,7 @@ footer {
 }
 
 .bottom {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -320,6 +333,7 @@ a {
     padding: 0.5rem 0.75rem;
     font-weight: 100;
     font-size: 12px;
+    
 }
 
 .trial {
@@ -334,19 +348,26 @@ a {
     font-size: 12px;
     padding: 0.5rem 0.75rem;
     text-align: center;
+    display: block;
+    width: 70%;
 
     a {
         padding: 0.5rem 0.75rem;
     }
  }
  
+ .row-container {
+    display: flex;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    margin: 1rem -1rem;
+    
+ }
 
 .row {
     display: flex;
     flex-basis: auto;
-}
-.row-operations {
-    flex-wrap: wrap;
+    
 }
 
 .col {
@@ -364,7 +385,6 @@ a {
 }
 .col-4 {
     width: calc(100% / 12 * 4);
-    padding: 1rem;
 }
 .col-5 {
     width: calc(100% / 12 * 5);
