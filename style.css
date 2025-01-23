@@ -84,7 +84,9 @@ body {
 
     img {
         width: 100%;
-        margin-bottom: -3rem;
+        margin-top: 1rem;
+        margin-bottom: -5rem;
+        
     }
 
     p {
@@ -218,7 +220,31 @@ body {
 
 }
 
+.operations {
 
+    margin-top: 5rem;
+
+    h2 {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        font-size: 16px;
+        line-height: 1.5rem;
+    }
+
+    p {
+        margin: 0rem 0 2rem 0;
+        font-size: 12px;
+        line-height: 1rem;
+        padding-right: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}
 /* FOOTER */
 
 footer {
@@ -256,9 +282,6 @@ a {
 
 
 
-
-
-
 /* UTILITY */
 .btn {
     background-color: var(--main-light);
@@ -289,9 +312,9 @@ a {
 
 .row {
     display: flex;
+    flex-basis: auto;
 }
 .row-operations {
-    display: flex;
     flex-wrap: wrap;
 }
 
